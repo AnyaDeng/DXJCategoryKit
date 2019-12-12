@@ -1,0 +1,6 @@
+framework module DXJCategoryKit {
+  umbrella header "DXJCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DXJCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - DXJCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  DXJCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DXJCategoryKit: b8347888079e946165de2fe0d643a2df07fcc125
+
+PODFILE CHECKSUM: 471bd876b4d30ed40042a737fc50a6940e5c743b
+
+COCOAPODS: 1.8.4
