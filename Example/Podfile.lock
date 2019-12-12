@@ -1,16 +1,35 @@
 PODS:
-  - DXJCategoryKit (0.1.0)
+  - DXJCategoryKit (1.0.1):
+    - DXJTools (~> 1.0.3)
+  - DXJTools (1.0.3):
+    - Masonry (~> 1.0.2)
+    - SDWebImage (~> 4.0)
+  - Masonry (1.0.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - DXJCategoryKit (from `../`)
+  - DXJTools (~> 1.0.3)
+
+SPEC REPOS:
+  https://git.coding.net/CocoaPods/Specs.git:
+    - Masonry
+    - SDWebImage
+  https://github.com/AnyaDeng/DXJSpecs.git:
+    - DXJTools
 
 EXTERNAL SOURCES:
   DXJCategoryKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DXJCategoryKit: b8347888079e946165de2fe0d643a2df07fcc125
+  DXJCategoryKit: 8c1d7a559664f523d1da1c26d091a2b11f145b35
+  DXJTools: cdec58e92cdd72880e9f169460d744f41069bf78
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 471bd876b4d30ed40042a737fc50a6940e5c743b
+PODFILE CHECKSUM: 5539a2bcfffedfd784da9a2cffe1383edeca7f43
 
 COCOAPODS: 1.8.4
