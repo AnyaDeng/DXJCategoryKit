@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DXJCategoryKit'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'iOS开发之分类'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DXJCategoryKit/Classes/**/*'
-  s.dependency 'DXJTools', '~> 1.0.3', :git => 'https://github.com/AnyaDeng/DXJTools.git'
+  s.dependency 'DXJSpecs/DXJCategoryKit'
+#  s.dependency 'DXJTools', '~> 1.0.3', :git => 'https://github.com/AnyaDeng/DXJTools.git'
   
   # s.resource_bundles = {
   #   'DXJCategoryKit' => ['DXJCategoryKit/Assets/*.png']
